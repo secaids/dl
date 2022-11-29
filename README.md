@@ -4,7 +4,7 @@
 ### <a href=https://github.com/secaids/dl#exp-4-dnn-for-malaria-infected-cell-recognition>Exp-4-malria Cell Reg.</a>
 ### <a href=https://github.com/secaids/dl#exp-5-stock-price-prediction>Exp-5-Stock Market Prediction</a>
 ### <a href = https://github.com/secaids/dl#exp-6-named-entiry-recognition>Exp-6-Named entity reg.</a>
-### <a href=https://github.com/secaids/dl#exp-7-image-denoising>Exp-Image Denoising</a>
+### <a href=https://github.com/secaids/dl#exp-7-image-denoising>Exp-7-Image Denoising</a>
 # <a href=https://github.com/AshwinRaaj/basic-nn-model.git>Exp - 1 - NN Regression Model</a>
 ```py
 ### To Read CSV file from Google Drive :
