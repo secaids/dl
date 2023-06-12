@@ -128,6 +128,9 @@ x_test_predictions = np.argmax(model.predict(X_test_scaled), axis=1)
 print(confusion_matrix(y_test,x_test_predictions))
 print(classification_report(y_test,x_test_predictions))
 ```
+![image](https://github.com/secaids/dl/assets/118756330/c1c20d56-f4a4-43d7-91e8-59723914e886)
+
+
 ## Transfer Learning
 ```py
 from keras import Sequential
@@ -185,6 +188,8 @@ predicted_stock_price = sc.inverse_transform(predicted_stock_price_scaled)
 from sklearn.metrics import mean_squared_error as mse
 mse(y_test,predicted_stock_price)
 ```
+![image](https://github.com/secaids/dl/assets/118756330/8ab408bc-a421-4a26-af31-da896ebf452e)
+
 ## NER
 ```py
 from keras import layers
@@ -253,6 +258,9 @@ autoencoder.fit(x_train_noisy, x_train_scaled,
                 shuffle=True,
                 validation_data=(x_test_noisy, x_test_scaled))
 ```
+![image](https://github.com/secaids/dl/assets/118756330/1a9287a6-023f-4edf-8b7b-670a9c4514d6)
+
+
 ## Malaria
 ```py
 import tensorflow as tf
@@ -298,3 +306,4 @@ predictions = pred_probabilities > 0.5
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 ```
+![image](https://github.com/secaids/dl/assets/118756330/bf0ac5ff-f5ef-4ad6-a2f3-ed0dd953d681)
